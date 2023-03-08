@@ -1,0 +1,34 @@
+/* /// Pages-Tool: 该文件是pages-tool插件的配置文件，根据pages-config.json的配置,本文件的内容可能合并到pages.json*/
+{
+	"tabBar": {
+		"color": "#666",
+		"selectedColor": "#000",
+		"backgroundColor": "while",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/images/index.png",
+				"selectedIconPath": "static/images/index1.png"
+			},
+			{
+				"pagePath": "pages/classify/classify",
+				"text": "分类",
+				"iconPath": "static/images/classify.png",
+				"selectedIconPath": "static/images/classify1.png"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "static/images/cart.png",
+				"selectedIconPath": "static/images/cart1.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/images/mine.png",
+				"selectedIconPath": "static/images/mine1.png"
+			}
+		]
+	}
+}
