@@ -1,4 +1,7 @@
 /* /// Pages-Tool: 该文件是pages-tool插件的配置文件，根据pages-config.json的配置,本文件的内容可能合并到pages.json*/
 {
-	"easycom": {}
+	"easycom": {
+		"^dy-(.*)": "@/components/dy-$1.vue" ,
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue" 
+	}
 }

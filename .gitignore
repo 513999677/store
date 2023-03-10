@@ -29,5 +29,4 @@ pnpm-debug.log*
 /.hbuilderx/
 /node_modules/
 /pages/tabbar/cart/index原备.vue
-/manifest.json
 /api/app.js
